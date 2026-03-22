@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kuralara WebFlux ⚡️
+**Engineering-Driven Software Studio**
 
-## Getting Started
+Welcome to the official repository for the Kuralara WebFlux studio platform. We design and build scalable web applications engineered with clean architecture, built for long-term growth.
 
-First, run the development server:
+![Kuralara WebFlux](public/founder.png)
 
-```bash
+## 🏗 System Architecture
+This platform is built with a focus on high performance, SEO optimization, and modular design. 
+
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Library:** React.js
+* **Styling:** Pure Custom CSS (Zero heavy UI libraries for maximum performance)
+* **Backend:** Next.js Serverless API Routes 
+* **Deployment:** Vercel (Edge Network)
+
+## ⚙️ Core Philosophy
+1. **Architecture Before Aesthetics:** Folder structure, data models, and API contracts are defined before a component is built.
+2. **Build Slow. Build Right:** Maintainability and stability are non-negotiable. 
+3. **Separation of Concerns:** Clean controller-service-model separation. No coupled business logic.
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+**1. Clone the repository**
+\`\`\`bash
+git clone https://github.com/Kuralara-WebFlux/Kuralara-WebFlux.git
+cd Kuralara-WebFlux
+\`\`\`
+
+**2. Install dependencies**
+\`\`\`bash
+npm install
+\`\`\`
+
+**3. Run the development server**
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 👨‍💻 Founders
+* **Kurinji Eswar JA** - Co-Founder & Software Engineer ([GitHub](https://github.com/Kurinji-Eswar))
+* **Lakshara Anand VV** - Co-Founder & Software Engineer ([GitHub](https://github.com/Lakshara-Anand-VV))
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Built with structural precision by the Kuralara WebFlux team.*
