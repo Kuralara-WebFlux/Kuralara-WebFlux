@@ -8,6 +8,12 @@ const jetbrains = JetBrains_Mono({ subsets: ['latin'], weight: ['300', '400', '5
 export const metadata = {
   title: 'Kuralara WebFlux - Engineering-Focused Software Studio',
   description: 'Kuralara WebFlux is an engineering-driven software studio. MERN stack, clean architecture, scalable systems.',
+  // FORCE CUSTOM FAVICON
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   alternates: {
     canonical: 'https://kuralarawebflux.com',
   },
