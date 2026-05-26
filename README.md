@@ -4,62 +4,89 @@
 
 Kuralara WebFlux is an engineering-driven software studio focused on designing, developing, and deploying modern digital products. We specialize in high-performance web applications, scalable backend systems, AI-powered solutions, and enterprise-grade software architecture.
 
-Our approach prioritizes long-term maintainability, clean system design, and business-focused engineering over short-term development shortcuts.
+Our mission is simple:
+
+**Build software that scales, performs, and lasts.**
+
+Rather than chasing trends, we focus on engineering principles, clean architecture, and long-term maintainability to create products that remain reliable as businesses grow.
 
 ---
 
-## 🌐 Website
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kuralara-WebFlux/Kuralara-WebFlux/main/public/founder.png" alt="Kuralara WebFlux Founders" width="900"/>
+</p>
 
-https://kuralarawebflux.com
+<p align="center">
+  <strong>Kurinji Eswar JA & Lakshara Anand VV</strong><br>
+  Co-Founders • Kuralara WebFlux
+</p>
 
-📧 contact@kuralarawebflux.com
+<p align="center">
+  Building scalable software with engineering-first thinking.
+</p>
 
 ---
 
-## 🚀 About
+## 🌐 Official Links
 
-At Kuralara WebFlux, we build software that is engineered to scale.
+**Website:** https://kuralarawebflux.com
 
-From startup MVPs to enterprise-grade platforms, we focus on creating systems that are:
+**Business Email:** contact@kuralarawebflux.com
 
-- Scalable
-- Maintainable
-- Performance-optimized
-- Secure
-- Future-ready
+**GitHub Organization:** https://github.com/Kuralara-WebFlux
 
-Every project follows a structured engineering workflow that emphasizes architecture, code quality, and operational excellence.
+---
+
+## 🚀 About Kuralara WebFlux
+
+Kuralara WebFlux is a software development studio founded by engineers who believe products fail not because of design—but because of weak architecture.
+
+We work with startups, founders, businesses, and product teams to develop:
+
+- Scalable Web Applications
+- SaaS Platforms
+- Internal Management Systems
+- AI-Powered Solutions
+- Enterprise Software
+- Backend Infrastructure
+- Digital Product MVPs
+
+Every project follows a structured engineering workflow designed for long-term maintainability and future scalability.
 
 ---
 
 ## ✨ Core Capabilities
 
-### Web Application Development
-- Full-Stack Web Platforms
-- Business Websites
-- SaaS Applications
-- Enterprise Dashboards
+### 🌍 Full-Stack Web Development
+
+- Custom Business Websites
+- SaaS Platforms
+- Admin Dashboards
 - Progressive Web Applications (PWAs)
+- Enterprise Portals
 
-### Backend Engineering
+### ⚙️ Backend Engineering
+
 - REST API Development
-- Serverless Architecture
-- Database Design
-- Authentication Systems
-- Cloud-Native Services
+- Authentication & Authorization
+- Database Architecture
+- Serverless Functions
+- Scalable System Design
 
-### AI & Intelligent Systems
+### 🤖 AI & Intelligent Systems
+
 - AI-Powered Applications
 - Machine Learning Integrations
-- Automation Workflows
+- Workflow Automation
 - Intelligent Data Processing
 - AI-Assisted Business Solutions
 
-### Software Consulting
-- System Architecture
-- Product Strategy
-- Technical Planning
-- Infrastructure Design
+### 🏗 Software Architecture
+
+- System Design
+- Product Engineering
+- Technical Consulting
+- Infrastructure Planning
 - Development Roadmaps
 
 ---
@@ -67,61 +94,81 @@ Every project follows a structured engineering workflow that emphasizes architec
 ## 🏗 Technology Stack
 
 ### Frontend
+
 - Next.js (App Router)
 - React.js
 - JavaScript
-- Custom CSS
+- HTML5
+- CSS3
+- Pure Custom CSS
 
 ### Backend
+
 - Next.js Serverless API Routes
 - Node.js
 
 ### Communication Infrastructure
+
 - Resend Email Services
 - Hostinger Business Mail
 
 ### Deployment & Operations
+
 - Vercel
 - GitHub
 - Hostinger DNS
 
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub Actions
+- Postman
+
 ---
 
-## 🏛 Architecture Principles
+## 🏛 Engineering Principles
 
 ### 1. Architecture Before Aesthetics
-System design, data flow, and engineering foundations are established before interface implementation.
+
+System architecture, folder structure, API contracts, and data models are defined before interface implementation.
 
 ### 2. Build Slow. Build Right.
-Maintainability, stability, and long-term scalability take priority over rushed development.
+
+Maintainability, stability, and scalability take priority over rushed development.
 
 ### 3. Separation of Concerns
-Business logic, presentation layers, and infrastructure remain clearly separated.
+
+Business logic, frontend logic, and infrastructure remain clearly separated and modular.
 
 ### 4. Performance by Default
-Every system is optimized for speed, efficiency, and user experience.
+
+Every system is optimized for speed, efficiency, accessibility, and user experience.
 
 ### 5. Engineering Over Trends
-Technology choices are driven by business requirements rather than temporary industry trends.
+
+Technology choices are driven by business requirements, not temporary industry trends.
 
 ---
 
 ## 🔗 Platform Features
 
-- Modern Next.js Architecture
+- Modern Next.js App Router Architecture
 - SEO-Optimized Structure
-- Responsive Design
+- Fully Responsive Design
 - Serverless Backend Infrastructure
 - Professional Business Email Integration
 - Real-Time Project Inquiry System
-- High-Performance Custom UI
+- Optimized Performance
+- Dark & Light Theme Support
 - Scalable Deployment Pipeline
+- Production-Ready Architecture
 
 ---
 
 ## 📩 Contact Workflow
 
-The platform includes a fully integrated inquiry system:
+The platform includes a fully integrated lead-generation and communication pipeline.
 
 ```text
 Visitor
@@ -130,81 +177,16 @@ KuralaraWebFlux.com
    ↓
 Project Inquiry Form
    ↓
-Serverless API
+Next.js API Route
    ↓
 Resend Infrastructure
    ↓
 contact@kuralarawebflux.com
+   ↓
+Kuralara WebFlux Team
 ```
 
-This enables direct communication between prospective clients and the Kuralara WebFlux team.
-
----
-
-## 🛠 Local Development
-
-### Clone Repository
-
-```bash
-git clone https://github.com/Kuralara-WebFlux/Kuralara-WebFlux.git
-cd Kuralara-WebFlux
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Configure Environment Variables
-
-Create a `.env.local` file:
-
-```env
-RESEND_API_KEY=your_resend_api_key
-```
-
-### Run Development Server
-
-```bash
-npm run dev
-```
-
-Visit:
-
-```text
-http://localhost:3000
-```
-
----
-
-## 👨‍💻 Founders
-
-### Kurinji Eswar JA
-**Co-Founder & Software Engineer**
-
-Areas of Focus:
-- Full Stack Development
-- Cloud Computing
-- System Architecture
-- AI Engineering
-
-GitHub:
-https://github.com/Kurinji-Eswar
-
----
-
-### Lakshara Anand VV
-**Co-Founder & Software Engineer**
-
-Areas of Focus:
-- Full Stack Development
-- Product Development
-- UI Systems
-- Project Operations
-
-GitHub:
-https://github.com/Lakshara-Anand-VV
+This allows prospective clients to directly connect with the founders through the website.
 
 ---
 
@@ -218,18 +200,143 @@ https://github.com/Lakshara-Anand-VV
 | Business Email | Hostinger Mail |
 | Version Control | GitHub |
 | Framework | Next.js |
+| Frontend Library | React.js |
+
+---
+
+## 📁 Project Structure
+
+```bash
+Kuralara-WebFlux/
+│
+├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.js
+│   ├── page.js
+│   ├── layout.js
+│   └── globals.css
+│
+├── public/
+│   ├── founder.png
+│   └── assets/
+│
+├── .env.local
+├── package.json
+├── next.config.js
+└── README.md
+```
+
+---
+
+## 🛠 Local Development
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Kuralara-WebFlux/Kuralara-WebFlux.git
+cd Kuralara-WebFlux
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env.local` file:
+
+```env
+RESEND_API_KEY=your_resend_api_key
+```
+
+### 4. Run Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 👨‍💻 Founders
+
+### Kurinji Eswar JA
+
+**Co-Founder & Software Engineer**
+
+Areas of Focus:
+
+- Full Stack Development
+- Cloud Computing
+- System Architecture
+- AI Engineering
+- Product Development
+
+GitHub:
+https://github.com/Kurinji-Eswar
+
+LinkedIn:
+https://linkedin.com/in/kurinji-eswar
+
+---
+
+### Lakshara Anand VV
+
+**Co-Founder & Software Engineer**
+
+Areas of Focus:
+
+- Full Stack Development
+- Product Development
+- Frontend Engineering
+- UI Systems
+- Project Operations
+
+GitHub:
+https://github.com/Lakshara-Anand-VV
+
+LinkedIn:
+https://linkedin.com/in/lakshara-anand
+
+---
+
+## 🤝 Collaboration
+
+We are always open to:
+
+- Startup Collaborations
+- Product Development Partnerships
+- Technical Consulting
+- AI-Based Projects
+- Open Source Contributions
+- Internship & Innovation Opportunities
+
+For collaborations:
+
+📧 contact@kuralarawebflux.com
 
 ---
 
 ## 📄 License
 
-This project and its contents are maintained by Kuralara WebFlux.
+© 2026 Kuralara WebFlux. All Rights Reserved.
 
-For collaborations, partnerships, and project inquiries, contact:
+This repository represents the official source code and engineering assets of Kuralara WebFlux.
 
-**contact@kuralarawebflux.com**
+Unauthorized commercial reproduction or redistribution without permission is prohibited.
 
 ---
 
-**Kuralara WebFlux**  
-Engineering-Driven Software Studio ⚡
+<p align="center">
+  <strong>Kuralara WebFlux ⚡</strong><br>
+  Engineering-Driven Software Studio<br>
+  Building scalable software with architectural precision.
+</p>
