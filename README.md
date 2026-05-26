@@ -198,7 +198,7 @@ https://github.com/Kurinji-Eswar
 **Co-Founder & Software Engineer**
 
 Areas of Focus:
-- Frontend Engineering
+- Full Stack Development
 - Product Development
 - UI Systems
 - Project Operations
