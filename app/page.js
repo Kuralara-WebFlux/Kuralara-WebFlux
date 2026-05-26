@@ -160,29 +160,50 @@ export default function Home() {
   }, []);
 
   // 5. Form Submission Handler
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = {
-      name: e.target.fname.value,
-      email: e.target.femail.value,
-      type: e.target.ftype.value,
-      message: e.target.fmessage.value,
-    };
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    if (!formData.name || !formData.email || !formData.message) {
-      alert("Please fill in required fields.");
-      return;
-    }
-
-    setFormStatus('sending');
-    
-    // Simulate API call for now
-    setTimeout(() => {
-        setFormStatus('success');
-        e.target.reset();
-        setTimeout(() => setFormStatus(null), 5000);
-    }, 1500);
+  const formData = {
+    name: e.target.fname.value,
+    email: e.target.femail.value,
+    type: e.target.ftype.value,
+    message: e.target.fmessage.value,
   };
+
+  if (!formData.name || !formData.email || !formData.message) {
+    alert("Please fill in required fields.");
+    return;
+  }
+
+  setFormStatus('sending');
+
+  try {
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+      setFormStatus('success');
+      e.target.reset();
+
+      setTimeout(() => {
+        setFormStatus(null);
+      }, 5000);
+    } else {
+      console.error('API Error:', result);
+      setFormStatus('error');
+    }
+  } catch (error) {
+    console.error('Submit Error:', error);
+    setFormStatus('error');
+  }
+};
 
   return (
     <>

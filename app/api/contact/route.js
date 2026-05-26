@@ -1,43 +1,41 @@
+import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request) {
   try {
-    const data = await request.json();
-    const { name, email, type, message } = data;
+    const { name, email, type, message } = await request.json();
 
-    // Validate inputs
-    if (!name || !email || !message) {
-      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
-    }
-
-    // Configure your email transporter (e.g., using Gmail, Brevo, AWS SES)
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER, // e.g., contact@kuralarawebflux.com
-        pass: process.env.EMAIL_PASS, // App password
-      },
-    });
-
-    // Send the email to yourself
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+    await resend.emails.send({
+      from: 'Kuralara WebFlux <contact@kuralarawebflux.com>',
       to: 'contact@kuralarawebflux.com',
-      subject: `New Project Inquiry: ${type} from ${name}`,
-      text: `
-        Name: ${name}
-        Email: ${email}
-        Project Type: ${type}
-        
-        Message:
-        ${message}
+      replyTo: email,
+      subject: `New Project Inquiry: ${type || 'General'} from ${name}`,
+      html: `
+        <h2>New Project Inquiry</h2>
+
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Project Type:</strong> ${type}</p>
+
+        <hr/>
+
+        <p>${message}</p>
       `,
     });
 
-    return NextResponse.json({ message: 'Success' }, { status: 200 });
+    return NextResponse.json(
+      { success: true },
+      { status: 200 }
+    );
+
   } catch (error) {
-    console.error('Contact form error:', error);
-    return NextResponse.json({ error: 'Failed to send message' }, { status: 500 });
+    console.error(error);
+
+    return NextResponse.json(
+      { success: false },
+      { status: 500 }
+    );
   }
 }
