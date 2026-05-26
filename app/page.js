@@ -618,7 +618,7 @@ export default function Home() {
             <p className="contact-body reveal d2">We work with early-stage founders, structured startups and established product teams. If you need an engineering team that prioritizes robust structure over rushed features, we want to hear from you.</p>
             <a href="mailto:contact@kuralarawebflux.com" className="contact-email reveal d3">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              kuralarawebflux@gmail.com
+              contact@kuralarawebflux.com
             </a>
           </div>
           <div className="reveal d1">
